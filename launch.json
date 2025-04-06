@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Run WeatherAppGUI",
+        "request": "launch",
+        "mainClass": "WeatherAppGUI",
+        "vmArgs": "-cp .;lib/json-20210307.jar"
+      }
+    ]
+  }
+  

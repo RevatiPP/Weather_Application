@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build weather app",
+        "type": "shell",
+        "command": "javac",
+        "args": [
+          "-cp",
+          ".;lib/json-20210307.jar",
+          "WeatherAppGUI.java"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
